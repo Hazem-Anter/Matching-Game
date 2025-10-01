@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Card Game</title>
+  <!-- Local Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css" />
+
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body class="bg-dark text-white">
+
+  <div class="container text-center mt-4">
+    <h1 class="mb-4">Matching Card Game</h1>
+
+    <!-- Progress Bar -->
+    <div class="progress my-4" style="height: 30px;">
+      <div id="progress-bar" class="progress-bar bg-success" style="width: 0%;" role="progressbar">
+        0%
+      </div>
+    </div>
+
+    <!-- Game Board -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3" id="game-board"></div>
+  </div>
+
+  <!-- JS Entry Point -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>

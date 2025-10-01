@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+  .row {
+    
+    /*flex-flow: row wrap;*/
+    /* height: 200px;
+    align-items: center;  */ 
+    
+    /*display: flex;
+    flex-direction: row;*/
+
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    /*flex-wrap: wrap;*/
+    /*
+    center
+    flex-start
+    flex-end
+    stretch
+    
+    */
+
+    gap: 10px;             
+    padding: 10px;
+    background-color: #ddd;
+  }
+
+  .col-6{
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    /*flex-basis: 150px;
+    flex-grow: 1;*/
+
+    /* flex: 1; */
+    /*flex-grow: 4;*/             
+
+    
+  }
+</style>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-6">
+                <img src="Images/flow" />
+            </div>
+
+            <div class="col-6">
+                 <p>
+                Pellentesque ut sapien arcu, egestas mollis massa. Fusce lectus leo, fringilla at
+                aliquet sit amet, volutpat non erat. Aenean molestie nibh vitae turpis venenatis
+                vel accumsan nunc tincidunt. Suspendisse id purus vel felis auctor mattis non ac
+                erat. Pellentesque sodales venenatis condimentum. Aliquam sit amet nibh nisi, ut
+                pulvinar est. Sed ullamcorper nisi vel tortor volutpat eleifend. Vestibulum iaculis
+                ullamcorper diam consectetur sagittis. Quisque vitae mauris ut elit semper condimentum
+                varius nec nisl. Nulla tempus porttitor dolor ac eleifend. Proin vitae purus lectus,
+                a hendrerit ipsum. Aliquam mattis lacinia risus in blandit.</p>
+            </div>
+
+            
+        </div>
+  
+    </div>
+    
+</body>
+</html>
